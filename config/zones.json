@@ -1,0 +1,269 @@
+{
+  "zones": {
+    "A": {
+      "id": "A",
+      "name": "Zone A",
+      "video_filename": "v1.mp4",
+      "description": "Engineering Block Two-Wheeler Stand",
+      "reference_resolution": [478, 850],
+      "slots": [
+        {
+          "slot_id": "A-1",
+          "name": "Slot A-1",
+          "points_normalized": [
+            [0.15, 0.64],
+            [0.98, 0.64],
+            [0.98, 0.98],
+            [0.15, 0.98]
+          ]
+        },
+        {
+          "slot_id": "A-2",
+          "name": "Slot A-2",
+          "points_normalized": [
+            [0.20, 0.55],
+            [0.85, 0.55],
+            [0.85, 0.75],
+            [0.20, 0.75]
+          ]
+        },
+        {
+          "slot_id": "A-3",
+          "name": "Slot A-3",
+          "points_normalized": [
+            [0.22, 0.42],
+            [0.80, 0.42],
+            [0.80, 0.56],
+            [0.22, 0.56]
+          ]
+        },
+        {
+          "slot_id": "A-4",
+          "name": "Slot A-4",
+          "points_normalized": [
+            [0.25, 0.30],
+            [0.75, 0.30],
+            [0.75, 0.43],
+            [0.25, 0.43]
+          ]
+        }
+      ]
+    },
+    "B": {
+      "id": "B",
+      "name": "Zone B",
+      "video_filename": "v2.mp4",
+      "description": "Library Annex Two-Wheeler Stand",
+      "reference_resolution": [478, 850],
+      "slots": [
+        {
+          "slot_id": "B-1",
+          "name": "Slot B-1",
+          "points_normalized": [
+            [0.75, 0.68],
+            [0.98, 0.68],
+            [0.98, 0.98],
+            [0.75, 0.98]
+          ]
+        },
+        {
+          "slot_id": "B-2",
+          "name": "Slot B-2",
+          "points_normalized": [
+            [0.70, 0.58],
+            [0.98, 0.58],
+            [0.98, 0.85],
+            [0.70, 0.85]
+          ]
+        },
+        {
+          "slot_id": "B-3",
+          "name": "Slot B-3",
+          "points_normalized": [
+            [0.65, 0.50],
+            [0.98, 0.50],
+            [0.98, 0.72],
+            [0.65, 0.72]
+          ]
+        },
+        {
+          "slot_id": "B-4",
+          "name": "Slot B-4",
+          "points_normalized": [
+            [0.45, 0.54],
+            [0.80, 0.54],
+            [0.80, 0.74],
+            [0.45, 0.74]
+          ]
+        },
+        {
+          "slot_id": "B-5",
+          "name": "Slot B-5",
+          "points_normalized": [
+            [0.10, 0.50],
+            [0.45, 0.50],
+            [0.45, 0.70],
+            [0.10, 0.70]
+          ]
+        }
+      ]
+    },
+    "C": {
+      "id": "C",
+      "name": "Zone C",
+      "video_filename": "v3.mp4",
+      "description": "Science Block Two-Wheeler Stand",
+      "reference_resolution": [478, 850],
+      "slots": [
+        {
+          "slot_id": "C-1",
+          "name": "Slot C-1",
+          "points_normalized": [
+            [0.70, 0.65],
+            [0.98, 0.65],
+            [0.98, 0.85],
+            [0.70, 0.85]
+          ]
+        },
+        {
+          "slot_id": "C-2",
+          "name": "Slot C-2",
+          "points_normalized": [
+            [0.65, 0.58],
+            [0.98, 0.58],
+            [0.98, 0.75],
+            [0.65, 0.75]
+          ]
+        },
+        {
+          "slot_id": "C-3",
+          "name": "Slot C-3",
+          "points_normalized": [
+            [0.55, 0.50],
+            [0.90, 0.50],
+            [0.90, 0.68],
+            [0.55, 0.68]
+          ]
+        },
+        {
+          "slot_id": "C-4",
+          "name": "Slot C-4",
+          "points_normalized": [
+            [0.20, 0.50],
+            [0.55, 0.50],
+            [0.55, 0.68],
+            [0.20, 0.68]
+          ]
+        }
+      ]
+    },
+    "D": {
+      "id": "D",
+      "name": "Zone D",
+      "video_filename": "v 4.mp4",
+      "description": "Sports Complex Two-Wheeler Stand",
+      "reference_resolution": [478, 850],
+      "slots": [
+        {
+          "slot_id": "D-1",
+          "name": "Slot D-1",
+          "points_normalized": [
+            [0.01, 0.60],
+            [0.30, 0.60],
+            [0.30, 0.85],
+            [0.01, 0.85]
+          ]
+        },
+        {
+          "slot_id": "D-2",
+          "name": "Slot D-2",
+          "points_normalized": [
+            [0.25, 0.60],
+            [0.60, 0.60],
+            [0.60, 0.85],
+            [0.25, 0.85]
+          ]
+        },
+        {
+          "slot_id": "D-3",
+          "name": "Slot D-3",
+          "points_normalized": [
+            [0.55, 0.60],
+            [0.90, 0.60],
+            [0.90, 0.85],
+            [0.55, 0.85]
+          ]
+        },
+        {
+          "slot_id": "D-4",
+          "name": "Slot D-4",
+          "points_normalized": [
+            [0.10, 0.45],
+            [0.45, 0.45],
+            [0.45, 0.65],
+            [0.10, 0.65]
+          ]
+        },
+        {
+          "slot_id": "D-5",
+          "name": "Slot D-5",
+          "points_normalized": [
+            [0.45, 0.45],
+            [0.85, 0.45],
+            [0.85, 0.65],
+            [0.45, 0.65]
+          ]
+        }
+      ]
+    },
+    "E": {
+      "id": "E",
+      "name": "Zone E",
+      "video_filename": "v5.mp4",
+      "description": "Auditorium & Canteen Two-Wheeler Stand",
+      "reference_resolution": [478, 850],
+      "slots": [
+        {
+          "slot_id": "E-1",
+          "name": "Slot E-1",
+          "points_normalized": [
+            [0.78, 0.50],
+            [0.98, 0.50],
+            [0.98, 0.65],
+            [0.78, 0.65]
+          ]
+        },
+        {
+          "slot_id": "E-2",
+          "name": "Slot E-2",
+          "points_normalized": [
+            [0.55, 0.50],
+            [0.80, 0.50],
+            [0.80, 0.65],
+            [0.55, 0.65]
+          ]
+        },
+        {
+          "slot_id": "E-3",
+          "name": "Slot E-3",
+          "points_normalized": [
+            [0.30, 0.50],
+            [0.58, 0.50],
+            [0.58, 0.65],
+            [0.30, 0.65]
+          ]
+        },
+        {
+          "slot_id": "E-4",
+          "name": "Slot E-4",
+          "points_normalized": [
+            [0.05, 0.50],
+            [0.32, 0.50],
+            [0.32, 0.65],
+            [0.05, 0.65]
+          ]
+        }
+      ]
+    }
+  }
+}

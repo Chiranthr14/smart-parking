@@ -1,0 +1,33 @@
+{
+  "system": {
+    "project_name": "SmartPark",
+    "subtitle": "AI-Based College Two-Wheeler Parking Detection & Recommendation System",
+    "mode": "Prerecorded CCTV Analysis",
+    "note": "Availability is computed from CCTV video footage. Live RTSP is reserved for future expansion."
+  },
+  "model": {
+    "model_name": "yolo11n.pt",
+    "model_dir": "models",
+    "confidence_threshold": 0.35,
+    "target_classes": [3],
+    "target_class_names": ["motorcycle"],
+    "class_notes": "COCO standard models group motorcycles, mopeds, and scooters under the 'motorcycle' class (id: 3)."
+  },
+  "occupancy": {
+    "overlap_metric": "intersection_over_slot",
+    "occupied_threshold": 0.25,
+    "uncertain_threshold": 0.10,
+    "min_detection_confidence": 0.30
+  },
+  "temporal_smoothing": {
+    "enabled": true,
+    "window_size": 7,
+    "occupied_ratio_threshold": 0.60,
+    "vacant_ratio_threshold": 0.60
+  },
+  "performance": {
+    "frame_skip": 2,
+    "max_display_width": 960,
+    "prefer_gpu": true
+  }
+}
